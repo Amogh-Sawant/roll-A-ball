@@ -1,0 +1,24 @@
+{
+    "CollectAll": {
+        "checkpoints": [
+            {
+                "steps": 325978,
+                "file_path": "results\\RayImi\\CollectAll\\CollectAll-325978.onnx",
+                "reward": null,
+                "creation_time": 1619968612.9126318
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 325978,
+            "file_path": "results\\RayImi\\CollectAll.onnx",
+            "reward": null,
+            "creation_time": 1619968612.9126318
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": "2.1.0"
+    }
+}

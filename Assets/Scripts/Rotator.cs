@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
- 
+    
 
     // Update  is called once per frame
     void Update()
     {
 
+        // transform.position = transform.position + new Vector3(0, 1 * MV * Time.deltaTime, 0);
         transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
     }
 }
