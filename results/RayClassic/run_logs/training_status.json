@@ -1,0 +1,30 @@
+{
+    "CollectAll": {
+        "checkpoints": [
+            {
+                "steps": 499942,
+                "file_path": "results\\RayClassic\\CollectAll\\CollectAll-499942.onnx",
+                "reward": null,
+                "creation_time": 1620380957.9531898
+            },
+            {
+                "steps": 500902,
+                "file_path": "results\\RayClassic\\CollectAll\\CollectAll-500902.onnx",
+                "reward": null,
+                "creation_time": 1620380958.1722183
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500902,
+            "file_path": "results\\RayClassic\\CollectAll.onnx",
+            "reward": null,
+            "creation_time": 1620380958.1722183
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": "2.1.0"
+    }
+}

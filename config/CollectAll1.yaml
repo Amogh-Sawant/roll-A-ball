@@ -2,8 +2,8 @@ behaviors:
   CollectAll:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 25
-      buffer_size: 100
+      batch_size: 64
+      buffer_size: 256
       learning_rate: 3.0e-4
       beta: 5.0e-4
       epsilon: 0.2
@@ -20,10 +20,10 @@ behaviors:
         strength: 1.0
       gail:
         strength: 0.5
-        demo_path: Demos/CollectAllDemo.demo
+        demo_path: Demos/CollectAll23.demo
     behavioral_cloning:
        strength: 0.5
-       demo_path: Demos/CollectAllDemo.demo
-    max_steps: 500000
+       demo_path: Demos/CollectAll23.demo
+    max_steps: 1000000
     time_horizon: 64
     summary_freq: 10000

@@ -2,17 +2,41 @@
     "CollectAll": {
         "checkpoints": [
             {
-                "steps": 325978,
-                "file_path": "results\\RayImi\\CollectAll\\CollectAll-325978.onnx",
+                "steps": 500434,
+                "file_path": "results\\RayImi\\CollectAll\\CollectAll-500434.onnx",
                 "reward": null,
-                "creation_time": 1619968612.9126318
+                "creation_time": 1620115026.5620658
+            },
+            {
+                "steps": 500434,
+                "file_path": "results\\RayImi\\CollectAll\\CollectAll-500434.onnx",
+                "reward": null,
+                "creation_time": 1620115243.8785932
+            },
+            {
+                "steps": 569566,
+                "file_path": "results\\RayImi\\CollectAll\\CollectAll-569566.onnx",
+                "reward": null,
+                "creation_time": 1620116166.913267
+            },
+            {
+                "steps": 999971,
+                "file_path": "results\\RayImi\\CollectAll\\CollectAll-999971.onnx",
+                "reward": null,
+                "creation_time": 1620120936.5236683
+            },
+            {
+                "steps": 1009255,
+                "file_path": "results\\RayImi\\CollectAll\\CollectAll-1009255.onnx",
+                "reward": null,
+                "creation_time": 1620121030.4015543
             }
         ],
         "final_checkpoint": {
-            "steps": 325978,
+            "steps": 1009255,
             "file_path": "results\\RayImi\\CollectAll.onnx",
             "reward": null,
-            "creation_time": 1619968612.9126318
+            "creation_time": 1620121030.4015543
         }
     },
     "metadata": {
